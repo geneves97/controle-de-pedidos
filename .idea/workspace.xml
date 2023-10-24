@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82761a06-05f0-4ee7-b5de-c9aeee216cb3" name="Changes" comment="feat: adicionando locale e scanner">
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Client.java" afterDir="false" />
+    <list default="true" id="82761a06-05f0-4ee7-b5de-c9aeee216cb3" name="Changes" comment="feat: substituindo tipo Date por LocalDate no birthDate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -97,7 +99,39 @@
       <option name="project" value="LOCAL" />
       <updated>1698159646387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: adicionando enum OrderStatus">
+      <option name="closed" value="true" />
+      <created>1698162378411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698162378411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: adicionando entidade Client">
+      <option name="closed" value="true" />
+      <created>1698162404375</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698162404375</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: adicionando entidade Order">
+      <option name="closed" value="true" />
+      <created>1698163377368</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698163377368</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: substituindo tipo Date por LocalDate no birthDate">
+      <option name="closed" value="true" />
+      <created>1698187720091</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698187720091</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,6 +141,10 @@
     <MESSAGE value="feat: Criando metodo subTotal e toString do OrderItem" />
     <MESSAGE value="feat: imprimindo oi1 na classe principal" />
     <MESSAGE value="feat: adicionando locale e scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionando locale e scanner" />
+    <MESSAGE value="feat: adicionando enum OrderStatus" />
+    <MESSAGE value="feat: adicionando entidade Client" />
+    <MESSAGE value="feat: adicionando entidade Order" />
+    <MESSAGE value="feat: substituindo tipo Date por LocalDate no birthDate" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: substituindo tipo Date por LocalDate no birthDate" />
   </component>
 </project>
