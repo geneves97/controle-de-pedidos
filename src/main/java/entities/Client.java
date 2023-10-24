@@ -3,6 +3,7 @@ package entities;
 import lombok.Data;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Data
@@ -12,11 +13,12 @@ public class Client {
 
     private String name;
     private String email;
-    private Date birthDate;
+    private LocalDate birthDate;
 
     public Client(){}
 
-    public Client(String name, String email, Date birthDate) {
+    public Client(String name, String email, LocalDate birthDate) {
+        super();
         this.name = name;
         this.email = email;
         this.birthDate = birthDate;
@@ -24,6 +26,9 @@ public class Client {
 
     @Override
     public String toString() {
-        return name + " (" + sdf.format(birthDate) + ") - " + email ;
+        return name
+                + " (" + sdf.format(birthDate)
+                + ") - "
+                + email ;
     }
 }
