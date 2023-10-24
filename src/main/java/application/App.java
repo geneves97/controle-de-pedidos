@@ -1,13 +1,14 @@
 package application;
 
-/**
- * Hello world!
- *
- */
+import entities.OrderItem;
+import entities.Product;
+
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main(String[] args) {
+        Product p = new Product("TV", 1000.0);
+        OrderItem oi1 = new OrderItem(1, 1000.0, p);
+
+        System.out.println(oi1);
     }
 }
