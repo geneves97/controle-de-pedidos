@@ -1,15 +1,22 @@
 package entities;
 
-import entities.enums.OrderStatus;
-import lombok.Data;
-
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import entities.enums.OrderStatus;
+import lombok.Data;
+
 @Data
 public class Order {
-    private Date moment;
+
+    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+
+    private Instant moment;
     private OrderStatus status;
     private Client client;
 
@@ -18,7 +25,7 @@ public class Order {
 
     public Order(){}
 
-    public Order(Date moment, OrderStatus status, Client client) {
+    public Order(Instant moment, OrderStatus status, Client client) {
         this.moment = moment;
         this.status = status;
         this.client = client;
@@ -37,5 +44,26 @@ public class Order {
             sum += it.subTotal();
         }
         return sum;
+    }
+
+    @Override
+    public String toString() {
+
+        LocalDateTime dt = LocalDateTime.ofInstant(moment, ZoneId.systemDefault());
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("Order moment: ");
+        sb.append(dt.format(formatter) + "\n");
+        sb.append("Order status: ");
+        sb.append(status + "\n");
+        sb.append("Client: ");
+        sb.append(client + "\n");
+        sb.append("Order items:\n");
+        for (OrderItem item : items) {
+            sb.append(item + "\n");
+        }
+        sb.append("Total price: $");
+        sb.append(String.format("%.2f", total()));
+        return sb.toString();
     }
 }
