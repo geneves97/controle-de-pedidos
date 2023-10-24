@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82761a06-05f0-4ee7-b5de-c9aeee216cb3" name="Changes" comment="feat: Criando a entidade OrdetItem">
+    <list default="true" id="82761a06-05f0-4ee7-b5de-c9aeee216cb3" name="Changes" comment="feat: adicionando locale e scanner">
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/OrderItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +73,40 @@
       <option name="project" value="LOCAL" />
       <updated>1698157382445</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Criando metodo subTotal e toString do OrderItem">
+      <option name="closed" value="true" />
+      <created>1698159476691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698159476691</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: imprimindo oi1 na classe principal">
+      <option name="closed" value="true" />
+      <created>1698159545761</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698159545761</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: adicionando locale e scanner">
+      <option name="closed" value="true" />
+      <created>1698159646387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698159646387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="feat: Criando a entidade Product" />
     <MESSAGE value="feat: Criando a entidade OrdetItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Criando a entidade OrdetItem" />
+    <MESSAGE value="feat: Criando metodo subTotal e toString do OrderItem" />
+    <MESSAGE value="feat: imprimindo oi1 na classe principal" />
+    <MESSAGE value="feat: adicionando locale e scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionando locale e scanner" />
   </component>
 </project>
